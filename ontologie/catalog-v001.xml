@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1417178543600" name="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl" uri="FilmographieV1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1417178543600" name="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311" uri="FilmographieV1_Instances.owl"/>
+    </group>
+</catalog>

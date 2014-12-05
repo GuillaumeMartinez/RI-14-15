@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY FilmographieV1 "http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#" >
+]>
+<rdf:RDF xmlns="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#" xml:base="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:FilmographieV1="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#" xmlns:terms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311">
+        <owl:imports rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AbsaDialouToure -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AbsaDialouToure">
+        <FilmographieV1:aPourNom>Toure</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Absa Dialou</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourPrenom>Absa</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MinaDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AdamaDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AdamaDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RolePrincipal"/>
+        <FilmographieV1:aPourNom>Adama</FilmographieV1:aPourNom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AlainAnthony -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AlainAnthony">
+        <FilmographieV1:aPourNom>Anthony</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Alain</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Masculin"/>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPiloteDeParapenteDansIntouchables_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AlbaGaiaBellugi -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AlbaGaiaBellugi">
+        <FilmographieV1:aPourNom>Bellugi</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Alba</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourPrenom>Alba Gaia</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Feminin"/>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ElisaDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AlbertDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AlbertDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label>Albert</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AlbertDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AnneLeNy -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AnneLeNy">
+        <FilmographieV1:aPourNom>Le Ny</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Anne</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#YvonneDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AntoineDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AntoineDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:aPourPrenom>Antoine</FilmographieV1:aPourPrenom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label>Antoine</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AntoineDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AntoineLaurent -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AntoineLaurent">
+        <FilmographieV1:aPourPrenom>Antoine</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Laurent</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnVoisinMalGareDansIntouchables_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AudreyFleurot -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AudreyFleurot">
+        <FilmographieV1:aPourNom>Fleurot</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Audrey</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MagalieDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#BastienDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#BastienDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label>Bastien</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#BastienDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#BenjaminBaroche -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#BenjaminBaroche">
+        <FilmographieV1:aPourNom>Baroche</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Benjamin</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPolicierDansIntouchables_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#CarolineBourg -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#CarolineBourg">
+        <FilmographieV1:aPourPrenom>Caroline</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Bourg</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FredDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ChantalDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ChantalDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:aPourPrenom>Chantal</FilmographieV1:aPourPrenom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label>Chantal</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ChantalDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ChristianAmeri -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ChristianAmeri">
+        <FilmographieV1:aPourPrenom>Christian</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Ameri</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AlbertDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ClothildeMollet -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ClothildeMollet">
+        <FilmographieV1:aPourPrenom>Clothilde</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Mollet</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MarcelleDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#CyrilMendy -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#CyrilMendy">
+        <FilmographieV1:aPourNom>Mendy</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Cyril</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AdamaDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DominiqueDaguier -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DominiqueDaguier">
+        <FilmographieV1:aPourNom>Daguier</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Dominique</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnAmiDePhilippeDansIntouchables_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DominiqueHenry -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DominiqueHenry">
+        <FilmographieV1:aPourPrenom>Dominique</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Henry</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPiloteDeParapenteDansIntouchables_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DorotheeBriereMeritte -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DorotheeBriereMeritte">
+        <FilmographieV1:aPourPrenom>Dorothée</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom> Briere</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourNom>Briere Meritte</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EleonoreDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DrissDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DrissDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RolePrincipal"/>
+        <FilmographieV1:aPourPrenom>Driss</FilmographieV1:aPourPrenom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EleonoreDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EleonoreDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:aPourPrenom>Eléonore</FilmographieV1:aPourPrenom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label>Eléonore</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EleonoreDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ElisaDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ElisaDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RolePrincipal"/>
+        <FilmographieV1:aPourPrenom>Elisa</FilmographieV1:aPourPrenom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ElliotLatil -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ElliotLatil">
+        <FilmographieV1:aPourPrenom>Elliot</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Latil</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnLyceenDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EmilieCaen -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EmilieCaen">
+        <FilmographieV1:aPourNom>Caen</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Emilie</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GaleristeDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EricToledano -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EricToledano">
+        <FilmographieV1:aPourNom>Toledano</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Eric</FilmographieV1:aPourPrenom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FabriceMantegna -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FabriceMantegna">
+        <FilmographieV1:aPourPrenom>Fabrice</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Mantegna</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeChanteurDOperaDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FatouDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FatouDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RolePrincipal"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label>Fatou</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RolePrincipal"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FatouDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Flics -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Flics">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Film"/>
+        <FilmographieV1:aPourDureeMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</FilmographieV1:aPourDureeMinutes>
+        <FilmographieV1:aPourTitre>Flics</FilmographieV1:aPourTitre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FrançoisBureloup -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FrançoisBureloup">
+        <FilmographieV1:aPourNom>Bureloup</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>François</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FrançoisCaron -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FrançoisCaron">
+        <FilmographieV1:aPourNom>Caron</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>François</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnAmiDePhilippeDansIntouchables_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FrançoisCluzet -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FrançoisCluzet">
+        <FilmographieV1:aPourPrenom>François</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Cluzet</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PhilippeDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FredDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FredDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">Fred</rdfs:label>
+        <rdfs:label>Frédérique</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FredDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GaleristeDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GaleristeDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">galeriste</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GaleristeDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GaragisteDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GaragisteDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un garagiste</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GaragisteDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Ceremonie"/>
+        <rdfs:label xml:lang="fr">7ème cérémonie</rdfs:label>
+        <FilmographieV1:aPourDate>2012</FilmographieV1:aPourDate>
+        <FilmographieV1:aPourTitre xml:lang="fr">Globes de cristal</FilmographieV1:aPourTitre>
+        <FilmographieV1:seDerouleDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Lido"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">Globes de cristal 2012</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Ceremonie"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GregoireOestermann -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GregoireOestermann">
+        <FilmographieV1:aPourNom>Oestermann</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Grégoire</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AntoineDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#HediBouchefana -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#HediBouchefana">
+        <FilmographieV1:aPourPrenom>Hédi</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Bouchefana</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GaragisteDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#IanFenelon -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#IanFenelon">
+        <FilmographieV1:aPourNom>Fenelon</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Ian</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Film"/>
+        <terms:title xml:lang="fr">Intouchables</terms:title>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AbsaDialouToure"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AlainAnthony"/>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AlbaGaiaBellugi"/>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AnneLeNy"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AntoineLaurent"/>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#AudreyFleurot"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#BenjaminBaroche"/>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#CarolineBourg"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ChristianAmeri"/>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ClothildeMollet"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#CyrilMendy"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DominiqueDaguier"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DominiqueHenry"/>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DorotheeBriereMeritte"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ElliotLatil"/>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EmilieCaen"/>
+        <FilmographieV1:aPourRealisateur rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EricToledano"/>
+        <FilmographieV1:aPourScenariste rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#EricToledano"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FabriceMantegna"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FrançoisBureloup"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FrançoisCaron"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FrançoisCluzet"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GregoireOestermann"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#HediBouchefana"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#IanFenelon"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Jean-FrançoisCayrey"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#JeromePauwels"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#KevinWamo"/>
+        <FilmographieV1:aPourProducteur rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LaurentZeitoun"/>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Marie-LaureDescoureaux"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MichelWinogradoff"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#NickyMarbot"/>
+        <FilmographieV1:aPourProducteur rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#NicolasDuval"/>
+        <FilmographieV1:aPourRealisateur rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#OlivierNakache"/>
+        <FilmographieV1:aPourScenariste rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#OlivierNakache"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#OmarSy"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PhilippeLeFevre"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#RenaudBarse"/>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#SalimataKamate"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#SylvainLazard"/>
+        <FilmographieV1:aPourActeurHomme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ThomasSoliveres"/>
+        <FilmographieV1:aPourProducteur rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#YannZenou"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Jean-FrançoisCayrey -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Jean-FrançoisCayrey">
+        <FilmographieV1:aPourPrenom>Jean-François</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Cayrey</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnNouvelAuxiliaireDansIntouchables_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#JeromePauwels -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#JeromePauwels">
+        <FilmographieV1:aPourPrenom>Jérôme</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Pauwels</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnVoisinMalGareDansIntouchables_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#KarinViard -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#KarinViard">
+        <FilmographieV1:aPourPrenom>Karin</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Viard</FilmographieV1:aPourNom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#KevinWamo -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#KevinWamo">
+        <FilmographieV1:aPourPrenom>Kevin</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Wamo</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LAmiDeDrissDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LAmiDeDrissDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LAmiDeDrissDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un ami de Driss</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LAmiDeDrissDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LaurentZeitoun -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LaurentZeitoun">
+        <FilmographieV1:aPourPrenom>Laurent</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Zeitoun</FilmographieV1:aPourNom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeChanteurDOperaDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeChanteurDOperaDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">le chanteur d'opéra</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeChanteurDOperaDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeChefDOrchestreDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeChefDOrchestreDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un chef d'orchestre</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeChefDOrchestreDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeServeurDesDeuxMagotsDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeServeurDesDeuxMagotsDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">le serveur des Deux Magots</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeServeurDesDeuxMagotsDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Lido -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Lido">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Lieu"/>
+        <FilmographieV1:estSitueDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Paris"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label>Lido</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Lieu"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Lido"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MagalieDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MagalieDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RolePrincipal"/>
+        <FilmographieV1:aPourPrenom>Magalie</FilmographieV1:aPourPrenom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MarcelleDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MarcelleDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RolePrincipal"/>
+        <FilmographieV1:aPourPrenom>Marcelle</FilmographieV1:aPourPrenom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Marie-LaureDescoureaux -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Marie-LaureDescoureaux">
+        <FilmographieV1:aPourPrenom>Marie-Laure</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Descoureaux</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ChantalDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MarinaFois -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MarinaFois">
+        <FilmographieV1:aPourNom>Foïs</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Marina</FilmographieV1:aPourPrenom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MichelWinogradoff -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MichelWinogradoff">
+        <FilmographieV1:aPourPrenom>Michel</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Winogradoff</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeServeurDesDeuxMagotsDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MinaDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MinaDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:aPourPrenom>Mina</FilmographieV1:aPourPrenom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label>Mina</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MinaDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#NickyMarbot -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#NickyMarbot">
+        <FilmographieV1:aPourNom>Marbot</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Nicky</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPolicierDansIntouchables_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#NicolasDuval -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#NicolasDuval">
+        <FilmographieV1:aPourNom>Duval</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Nicolas</FilmographieV1:aPourPrenom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#OlivierNakache -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#OlivierNakache">
+        <FilmographieV1:aPourPrenom>Olivier</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Nakache</FilmographieV1:aPourNom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#OmarSy -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#OmarSy">
+        <FilmographieV1:aPourPrenom>Omar</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Sy</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#DrissDansIntouchables"/>
+        <FilmographieV1:PersonneAPourRecompense rdf:resource="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PrixMeilleurActeurDeCesar2012"/>
+        <FilmographieV1:aPourLieuNaissance rdf:resource="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#Trappes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Paris -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Paris">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Ville"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PhilippeDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PhilippeDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RolePrincipal"/>
+        <FilmographieV1:aPourPrenom>Philippe</FilmographieV1:aPourPrenom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PhilippeLeFevre -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PhilippeLeFevre">
+        <FilmographieV1:aPourNom>Le Fèvre</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Philippe</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#LeChefDOrchestreDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Polisse -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Polisse">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Film"/>
+        <FilmographieV1:aPourDateSortie>19/11/2011</FilmographieV1:aPourDateSortie>
+        <FilmographieV1:aPourTitre xml:lang="fr">Polisse</FilmographieV1:aPourTitre>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#KarinViard"/>
+        <FilmographieV1:aPourActeurFemme rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MarinaFois"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PrixMeilleurActeurDeGlobesDeCristal2012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PrixMeilleurActeurDeGlobesDeCristal2012">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#PrixMeilleurActeur"/>
+        <rdfs:label xml:lang="fr">Globles de Cristal du Meilleur acteur 2012</rdfs:label>
+        <FilmographieV1:estDecernePar rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+        <FilmographieV1:recompenseFilm rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+        <FilmographieV1:recompensePersonne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#OmarSy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PrixMeilleurFilmDeGloblesDeCristal2012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PrixMeilleurFilmDeGloblesDeCristal2012">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#PrixMeilleurFilm"/>
+        <FilmographieV1:estDecernePar rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+        <FilmographieV1:recompenseFilm rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PrixMeilleurTelefilmDeGlobesDeCristal2012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PrixMeilleurTelefilmDeGlobesDeCristal2012">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#PrixFilm"/>
+        <FilmographieV1:recompenseFilm rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Flics"/>
+        <FilmographieV1:estDecernePar rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PrixMeilleureActriceDeGlobesDeCristal2012_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PrixMeilleureActriceDeGlobesDeCristal2012_1">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#PrixMeilleureActrice"/>
+        <FilmographieV1:estDecernePar rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+        <FilmographieV1:recompensePersonne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#KarinViard"/>
+        <FilmographieV1:recompenseFilm rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Polisse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PrixMeilleureActriceDeGlobesDeCristal2012_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#PrixMeilleureActriceDeGlobesDeCristal2012_2">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#PrixMeilleureActrice"/>
+        <FilmographieV1:estDecernePar rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+        <FilmographieV1:recompensePersonne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#MarinaFois"/>
+        <FilmographieV1:recompenseFilm rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Polisse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#RenaudBarse -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#RenaudBarse">
+        <FilmographieV1:aPourNom>Barse</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Renaud</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#SalimataKamate -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#SalimataKamate">
+        <FilmographieV1:aPourPrenom>Salimata</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Kamate</FilmographieV1:aPourNom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FatouDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#SylvainLazard -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#SylvainLazard">
+        <FilmographieV1:aPourNom>Lazard</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Sylvain</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnNouvelAuxiliaireDansIntouchables_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ThomasSoliveres -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#ThomasSoliveres">
+        <FilmographieV1:aPourNom>Soliveres</FilmographieV1:aPourNom>
+        <FilmographieV1:aPourPrenom>Thomas</FilmographieV1:aPourPrenom>
+        <FilmographieV1:incarne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#BastienDansIntouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnAmiDePhilippeDansIntouchables_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnAmiDePhilippeDansIntouchables_1">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">a friend of Philippe</rdfs:label>
+        <rdfs:label xml:lang="fr">un ami de Philippe</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnAmiDePhilippeDansIntouchables_1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnAmiDePhilippeDansIntouchables_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnAmiDePhilippeDansIntouchables_2">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">a friend of Philippe</rdfs:label>
+        <rdfs:label xml:lang="fr">un ami de Philippe</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnAmiDePhilippeDansIntouchables_2"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_1">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un candidat</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_2">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un candidat</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_2"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_3">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un candidat</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnCandidatDansIntouchables_3"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnLyceenDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnLyceenDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un lycéen</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnLyceenDansIntouchables"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnNouvelAuxiliaireDansIntouchables_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnNouvelAuxiliaireDansIntouchables_1">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un nouvel auxiliaire</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnNouvelAuxiliaireDansIntouchables_1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnNouvelAuxiliaireDansIntouchables_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnNouvelAuxiliaireDansIntouchables_2">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un nouvel auxilaire</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnNouvelAuxiliaireDansIntouchables_2"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPiloteDeParapenteDansIntouchables_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPiloteDeParapenteDansIntouchables_1">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un pilote de parapente</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPiloteDeParapenteDansIntouchables_1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPiloteDeParapenteDansIntouchables_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPiloteDeParapenteDansIntouchables_2">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPolicierDansIntouchables_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPolicierDansIntouchables_1">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">a policeman</rdfs:label>
+        <rdfs:label xml:lang="fr">un policier</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPolicierDansIntouchables_1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPolicierDansIntouchables_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPolicierDansIntouchables_2">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="en">a policeman</rdfs:label>
+        <rdfs:label xml:lang="fr">un policier</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnPolicierDansIntouchables_2"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnVoisinMalGareDansIntouchables_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnVoisinMalGareDansIntouchables_1">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un voisin mal garé</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnVoisinMalGareDansIntouchables_1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnVoisinMalGareDansIntouchables_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnVoisinMalGareDansIntouchables_2">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <rdfs:label xml:lang="fr">un voisin mal garé</rdfs:label>
+        <owl:annotatedTarget rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RoleSecondaire"/>
+        <owl:annotatedSource rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#UnVoisinMalGareDansIntouchables_2"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#YannZenou -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#YannZenou">
+        <FilmographieV1:aPourPrenom>Yann</FilmographieV1:aPourPrenom>
+        <FilmographieV1:aPourNom>Zenou</FilmographieV1:aPourNom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#YvonneDansIntouchables -->
+
+    <owl:NamedIndividual rdf:about="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#YvonneDansIntouchables">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#RolePrincipal"/>
+        <FilmographieV1:aPourPrenom>Yvonne</FilmographieV1:aPourPrenom>
+        <FilmographieV1:apparaitDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#AdelaideDeClermontTonnerre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#AdelaideDeClermontTonnerre">
+        <foaf:givenName>Adelaide</foaf:givenName>
+        <foaf:familyName>de Clermont Tonnerre</foaf:familyName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Feminin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#AlainChouffan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#AlainChouffan">
+        <foaf:familyName>Chouffan</foaf:familyName>
+        <foaf:givenName>Alain</foaf:givenName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Masculin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#AndreBercoff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#AndreBercoff">
+        <foaf:familyName>Bercoff</foaf:familyName>
+        <foaf:givenName>Andre</foaf:givenName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Masculin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#AnneKerloch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#AnneKerloch">
+        <foaf:familyName>Kerloch</foaf:familyName>
+        <foaf:givenName>Anne</foaf:givenName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Feminin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#BrunoCras -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#BrunoCras">
+        <foaf:givenName>Bruno</foaf:givenName>
+        <foaf:familyName>Cras</foaf:familyName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Masculin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#CarineChenaux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#CarineChenaux">
+        <foaf:familyName>Chenaux</foaf:familyName>
+        <foaf:givenName>Carine</foaf:givenName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Feminin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#Cesar2012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#Cesar2012">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#CesarDuCinema"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#DanielleAttali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#DanielleAttali">
+        <foaf:givenName>Danielle</foaf:givenName>
+        <foaf:familyName>Attali</foaf:familyName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Feminin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#EtoilesDorDuCinemaFrancais -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#EtoilesDorDuCinemaFrancais">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Competition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#FestivalInternationalDuFilmTokyo2011 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#FestivalInternationalDuFilmTokyo2011">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#FestivalDeCinema"/>
+        <rdfs:label xml:lang="fr">Festival international du film de Tokyo 2011</rdfs:label>
+        <FilmographieV1:aPourTitre xml:lang="fr">Festival international du film de Tokyo 2011 (édition n°24)</FilmographieV1:aPourTitre>
+        <FilmographieV1:seDerouleDans rdf:resource="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#Tokyo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#FrancoiseDelbecq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#FrancoiseDelbecq">
+        <foaf:familyName>Delbecq</foaf:familyName>
+        <foaf:givenName>Francoise</foaf:givenName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Feminin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#KatiaAlibert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#KatiaAlibert">
+        <foaf:givenName>Katia</foaf:givenName>
+        <foaf:familyName>Alibert</foaf:familyName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Feminin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#LumieresDeLaPresseEtrangere2012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#LumieresDeLaPresseEtrangere2012">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Ceremonie"/>
+        <FilmographieV1:aPourTitre xml:lang="fr">Lumières de la presse étrangères 2012</FilmographieV1:aPourTitre>
+        <FilmographieV1:seDerouleDans rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Paris"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#NicolasDemorand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#NicolasDemorand">
+        <foaf:firstName>Nicolas</foaf:firstName>
+        <foaf:familyName>Demorand</foaf:familyName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Masculin"/>
+        <FilmographieV1:estPresidentDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#OlivierBenkemoun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#OlivierBenkemoun">
+        <foaf:givenName>Olivier</foaf:givenName>
+        <foaf:familyName>Benkemoun</foaf:familyName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Masculin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PhilippeBourbeillon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PhilippeBourbeillon">
+        <foaf:givenName>Philippe</foaf:givenName>
+        <foaf:familyName>Bourbeillon</foaf:familyName>
+        <FilmographieV1:aPourSexe rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Masculin"/>
+        <FilmographieV1:estMembreDeJuryPour rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#GlobesDeCristal2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PrixMeilleurActeurDeCesar2012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PrixMeilleurActeurDeCesar2012">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#PrixMeilleurActeur"/>
+        <rdfs:label xml:lang="fr">césar du meilleur acteur 2012</rdfs:label>
+        <FilmographieV1:recompenseFilm rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+        <FilmographieV1:estDecernePar rdf:resource="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#Cesar2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PrixMeilleurActeurDeFestivalInternationalDuFilmDeTokyo2011_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PrixMeilleurActeurDeFestivalInternationalDuFilmDeTokyo2011_1">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#PrixMeilleurActeur"/>
+        <rdfs:label xml:lang="fr">Prix du meilleur acteur</rdfs:label>
+        <FilmographieV1:recompenseFilm rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+        <FilmographieV1:recompensePersonne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#OmarSy"/>
+        <FilmographieV1:estDecernePar rdf:resource="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#FestivalInternationalDuFilmTokyo2011"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PrixMeilleurActeurDeFestivalInternationalDuFilmDeTokyo2011_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PrixMeilleurActeurDeFestivalInternationalDuFilmDeTokyo2011_2">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#PrixMeilleurActeur"/>
+        <rdfs:label xml:lang="fr">Prix du meilleur acteur</rdfs:label>
+        <FilmographieV1:recompensePersonne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#FrançoisCluzet"/>
+        <FilmographieV1:recompenseFilm rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+        <FilmographieV1:estDecernePar rdf:resource="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#FestivalInternationalDuFilmTokyo2011"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PrixMeilleurActeurDeLumieresDeLaPresseEtrangere2012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#PrixMeilleurActeurDeLumieresDeLaPresseEtrangere2012">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#PrixMeilleurActeur"/>
+        <rdfs:label xml:lang="fr">meilleur acteur</rdfs:label>
+        <FilmographieV1:recompenseFilm rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#Intouchables"/>
+        <FilmographieV1:recompensePersonne rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographiesV1.owl#OmarSy"/>
+        <FilmographieV1:estDecernePar rdf:resource="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#LumieresDeLaPresseEtrangere2012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#Tokyo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#Tokyo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#Trappes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cathy/ontologies/2014/5/untitled-ontology-311#Trappes">
+        <rdf:type rdf:resource="http://www.irit.fr/recherches/MELODI/ontologies/FilmographieV1.owl#Ville"/>
+        <rdfs:label xml:lang="fr">Trappes</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
